@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>task - 1 </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <form action="" class="form">
+            <div class="form__header">
+                <div class="form__header-btn-login form__header-btn-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                        <path
+                            d="M8.49999 8.00001C7.79275 8.00001 7.11447 7.71905 6.61437 7.21896C6.11427 6.71886 5.83332 6.04058 5.83332 5.33334C5.83332 4.62609 6.11427 3.94782 6.61437 3.44772C7.11447 2.94762 7.79275 2.66667 8.49999 2.66667C9.20723 2.66667 9.88551 2.94762 10.3856 3.44772C10.8857 3.94782 11.1667 4.62609 11.1667 5.33334C11.1667 6.04058 10.8857 6.71886 10.3856 7.21896C9.88551 7.71905 9.20723 8.00001 8.49999 8.00001ZM8.49999 10C10.624 10 12.53 10.3807 13.8333 12.042V13.3333H3.16666V12.042C4.46999 10.38 6.37599 10 8.49999 10Z"
+                            fill="#F5F5F5" />
+                    </svg>
+                    <p>Login</p>
+                </div>
+                <div class="form__header-btn-registr">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path
+                            d="M14.0667 8.33334L15 9.27334L10.6467 13.6667L8.33333 11.3333L9.26667 10.3933L10.6467 11.78L14.0667 8.33334ZM6.66667 11.3333L8.66667 13.3333H2V12C2 10.5267 4.38667 9.33334 7.33333 9.33334L8.59333 9.40667L6.66667 11.3333ZM7.33333 2.66667C8.04058 2.66667 8.71885 2.94762 9.21895 3.44772C9.71905 3.94782 10 4.62609 10 5.33334C10 6.04058 9.71905 6.71886 9.21895 7.21896C8.71885 7.71905 8.04058 8.00001 7.33333 8.00001C6.62609 8.00001 5.94781 7.71905 5.44772 7.21896C4.94762 6.71886 4.66667 6.04058 4.66667 5.33334C4.66667 4.62609 4.94762 3.94782 5.44772 3.44772C5.94781 2.94762 6.62609 2.66667 7.33333 2.66667Z"
+                            fill="#171717" />
+                    </svg>
+                    <p>Register</p>
+                </div>
+            </div>
+
+            <div class="form__wrapper-autho">
+                <div class="form__wrapper-item">
+                    <div class="form__mail">
+                        <label for="email" class="form__mail-lable">Email</label>
+                        <input type="email" class="form__mail-input" id="email" placeholder="Email">
+                        <p class="mail__error error"></p>
+                    </div>
+
+                    <div class="form__pass">
+                        <label for="password" class="form__pass-lable">Password</label>
+                        <input type="password" class="form__pass-input" id="password" placeholder="Password">
+                        <p class="pass__error error"></p>
+                    </div>
+                </div>
+
+                <button class="form__btn-autho">Log in</button>
+            </div>
+
+            <div class="form__wrapper-reg">
+                <div class="form__wrapper-item">
+                    <div class="form__mail-reg">
+                        <label for="emailReg" class="form__mail-lable">Email</label>
+                        <input type="email" class="form__mail-input" id="emailReg" placeholder="Email">
+                    </div>
+
+                    <div class="form__pass-reg">
+                        <label for="passwordReg" class="form__pass-lable">Password</label>
+                        <input type="password" class="form__pass-input" id="passwordReg" placeholder="Password">
+                    </div>
+                    <div class="form__pass-reg-repeat">
+                        <label for="repeatPassword" class="form__pass-lable">Repeat password</label>
+                        <input type="password" class="form__pass-input" id="repeatPassword"
+                            placeholder="Repeat password">
+                    </div>
+                </div>
+
+                <button class="form__btn-reg">Register</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="script/index.js"></script>
+</body>
+
+</html>
