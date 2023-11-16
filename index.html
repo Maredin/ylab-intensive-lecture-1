@@ -11,7 +11,7 @@
 <body>
 
     <main class="main">
-        <form action="" class="form">
+        <form class="form" id="data">
             <div class="form__header">
                 <div class="form__header-btn-login form__header-btn-active">
                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
 
-                <button class="form__btn-autho">Log in</button>
+                <button class="form__btn-autho" type="submit" form="data">Log in</button>
             </div>
 
             <div class="form__wrapper-reg">
@@ -54,25 +54,34 @@
                     <div class="form__mail-reg">
                         <label for="emailReg" class="form__mail-lable">Email</label>
                         <input type="email" class="form__mail-input" id="emailReg" placeholder="Email">
+                        <p class="mail__reg-error error"></p>
                     </div>
 
                     <div class="form__pass-reg">
                         <label for="passwordReg" class="form__pass-lable">Password</label>
                         <input type="password" class="form__pass-input" id="passwordReg" placeholder="Password">
+                        <p class="pass__reg-error error"></p>
                     </div>
                     <div class="form__pass-reg-repeat">
                         <label for="repeatPassword" class="form__pass-lable">Repeat password</label>
                         <input type="password" class="form__pass-input" id="repeatPassword"
                             placeholder="Repeat password">
+                        <p class="pass__reg-repeat-error error"></p>
                     </div>
                 </div>
 
-                <button class="form__btn-reg">Register</button>
+                <button class="form__btn-reg" type="submit" form="data">Register</button>
             </div>
         </form>
+        <section class="welcome"></section>
     </main>
+    <section class="regcomplite">
+        <div class="regcomplite__wrapper">
+        </div>
+    </section>
 
-    <script src="script/index.js"></script>
+
+    <script src="script/index.js" type="module"></script>
 </body>
 
 </html>
