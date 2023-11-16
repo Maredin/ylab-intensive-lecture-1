@@ -10,10 +10,11 @@
 
 body {
     background: #E6E5FF;
+    padding: 2%;
 }
 
 .form {
-    width: 400px;
+    max-width: 400px;
     height: 420px;
     background: #FFF;
     margin: 150px auto 0 auto;
